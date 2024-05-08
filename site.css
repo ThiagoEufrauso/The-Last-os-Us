@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #363636;
+    color: #FFFFFF;
+    margin: 1;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #FFA500;
+}
+table {
+    width: 100%;
+    background-color: #000000;
+    border: none;
+}
+
+td {
+    text-align: center;
+}
+
+.nav{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.nav:hover {
+    background-color: #FFA500;
+    color: #000000;
+}
+.mg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    line-height: 1.5;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-contents {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image: url(https://i.pinimg.com/originals/ed/c8/48/edc84849ae89dee007adb96a7ac15648.gif);
+}
+.banner-2{
+    background-image: url(https://i.pinimg.com/originals/23/a8/e2/23a8e2bd672910f64aaccfad0cc28320.gif);
+}
+
+.banner-3{
+    background-image: url(https://64.media.tumblr.com/a27d705452cd458e338ace0a0bd16680/5eb9b2abba6cbf59-8a/s540x810/3d384247ec380b83615f2bc46ade2da346e7a2f3.gif);
+
+}
+.banner-4{
+    background-image: url(https://64.media.tumblr.com/4439d7ceb921b45e6e3301d14c06e64f/dbbfefa8baeaf664-73/s400x600/7fe10ce1910dde6c60889ab922134a4080bed1b6.gif);
+}
+.gustavo-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cards-contents2 {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.gustavo {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.gustavo:hover{
+    transform: scale(1.02);
+}
+.banner {
+    background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-08/230829-gustavo-santaolalla-jm-1205-0e175f.jpg);
+
+}
